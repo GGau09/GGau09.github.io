@@ -23,28 +23,28 @@ p {
     font-size: 18px;
 }
 
-p1 {
+.par2 {
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
 }
 
-p2 {
+.par3 {
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
 }
 
-p3 {
+.par4 {
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
 }
 
-p4 {
+.par5 {
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .center {
