@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    </head>
+
+    <body>
+
+        <h1>Register</h1>
+        
+        <form>
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="John" required>
+            <label for="surname">Last Name:</label>
+            <input type="text" id="surname" name="Smith" required>
+            
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="gender" value="Male">
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Other">Other</label>
+            <input type="radio" id="Other" name="gender" value="Other">
+
+            <label for="email">Email:</label>
+            <input id="email" name="your email" type="email" required>
+            <label for="password">Password:</label>
+            <input id="password" name="your password" type="password" minlength="5" maxlength="10" required>
+
+            <label for="month">Birthday:</label>
+            <input type="month" id="month" name="month">
+
+        </form>
+        
+        
+    </body>
+
+</html>
