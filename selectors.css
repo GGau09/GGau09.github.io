@@ -30,8 +30,8 @@ p{
 
 
 /*Make all inputs have a 3px red border*/
-input{
-    border: 3px;
+.input{
+    border-width: 3px;
     border-color: red;
 }
 
