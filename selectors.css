@@ -67,12 +67,12 @@ div:nth-of-type(3) > p{
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
 div:nth-of-type(3) > p:nth-child(2){
     border-width: 5px;
-    border-color: white;
+    border-color: #ffffff;
 }
 
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
 em{
-    color: white;
+    color: #ffffff;
     font-size: 20px;
 }
 
@@ -81,7 +81,9 @@ em{
 /*You may need to research some other selectors and properties*/
 
 /*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
-
+input[type="checkbox"]:checked {
+    margin-left: 50px;
+}
 
 /* Make the <label> elements all UPPERCASE without changing the HTML(definitely look this one up*/
 
