@@ -24,9 +24,16 @@ li{
 
 
 /*Change the background on every paragraph to be yellow*/
+p{
+    background-color: #ffff4a;
+}
 
 
 /*Make all inputs have a 3px red border*/
+input{
+    border-color: red;
+    border: 3px;
+}
 
 
 /* Give everything with the class 'hello' a white background*/
