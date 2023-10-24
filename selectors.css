@@ -13,7 +13,7 @@ h1{
 
 /* Make all <h2> elements orange */
 h2{
-    color: rgb(197, 128, 0);
+    color: #c58000;
 }
 
 
@@ -60,7 +60,7 @@ p{
 }
 
 /* Give both <p>'s inside the 3rd <div> a pink background*/
-div:nth-of-type(3), p{
+div:nth-of-type(3) > p{
     background-color: #dd9ea8;
 }
 
