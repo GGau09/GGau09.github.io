@@ -60,7 +60,7 @@ p{
 }
 
 /* Give both <p>'s inside the 3rd <div> a pink background*/
-p, div{
+p{
     background-color: #dd9ea8;
 }
 
@@ -68,7 +68,10 @@ p, div{
 
 
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
-
+em{
+    color: white;
+    font-size: 20px;
+}
 
 
 /*BONUS CHALLENGES*/
