@@ -60,7 +60,9 @@ p{
 }
 
 /* Give both <p>'s inside the 3rd <div> a pink background*/
-
+p, div{
+    background-color: #dd9ea8;
+}
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
 
