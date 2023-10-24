@@ -96,6 +96,11 @@ label{
 }
 
 /*Make the <h1> element's color change to blue when hovered over */
-
+h1:hover{
+    color: blue;
+}
 
 /*Make the <a> element's that have been visited gray */
+a:visited{
+    color: gray;
+}
