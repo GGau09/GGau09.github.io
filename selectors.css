@@ -30,13 +30,16 @@ p{
 
 
 /*Make all inputs have a 3px red border*/
-.input{
+input{
     border-width: 3px;
     border-color: red;
 }
 
 
 /* Give everything with the class 'hello' a white background*/
+.hello{
+    background-color: white;
+}
 
 
 /* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
