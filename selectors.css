@@ -43,10 +43,10 @@ input{
 
 
 /* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
-.special{
-    border-style: solid;
+#special{
     border-width: 2px;
     border-color: #050594;
+    border-style: solid;
 }
 
 /*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
@@ -55,22 +55,22 @@ p{
 }
 
 /*Make only inputs with type 'text' have a gray background*/
-.text, input{
+input[type="text"]{
     background-color: gray;
 }
 
 /* Give both <p>'s inside the 3rd <div> a pink background*/
-div:nth-of-type(3) > p{
+div:nth-of-type(3) p{
     background-color: #dd9ea8;
 }
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
 div:nth-of-type(3) p:nth-of-type(2){
-    border: 5px solid white;
+    border: 5px white solid;
 }
 
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
-em{
+div:nth-of-type(3) em{
     color: #ffffff;
     font-size: 20px;
 }
