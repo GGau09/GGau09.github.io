@@ -1,0 +1,47 @@
+.title{
+    padding-top: 10%;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.right_cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.bottom_cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border-bottom: none;
+}
+
+#cell_7 {
+    border-bottom: none;
+}
+
+#cell_8 {
+    border-bottom: none;
+}
+
+
+
