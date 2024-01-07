@@ -1,0 +1,21 @@
+.bg-dark {
+    background-color: black;
+}
+
+.container {
+    font-family: 'Source Sans 3', sans-serif;
+    margin-block-start: 17em;
+    margin-block-end: 1em;
+    margin-inline-start: 100px;
+    margin-inline-end: 0px;
+    color: whitesmoke;
+}
+
+.info {
+    width: 50%;
+}
+
+hr {
+    color: whitesmoke;
+    width: 52%;
+}
