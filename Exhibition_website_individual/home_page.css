@@ -4,13 +4,29 @@ header {
     margin-right: 20px;
 }
 
+main {
+    margin-block-start: 12em;
+    margin-block-end: 1em;
+    margin-inline-start: 2.5%;
+    margin-inline-end: 30%;
+}
+
+footer {
+    margin-block-start: 18em;
+    margin-block-end: -2em;
+    margin-inline-start: 2.5%;
+    margin-inline-end: 2.5%;
+    color: whitesmoke;
+    text-transform: initial;
+}
+
 .bg {
     font-family: 'Source Sans 3', sans-serif;
     color: whitesmoke;
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 0.5%;
-    padding-bottom: 0.5%;
+    padding-bottom: 1%;
     background-color: black;
     background-image: url(Texture_2_horizontal_0.4.png);
     background-size: cover;
@@ -21,11 +37,47 @@ header {
     font-size: 22px;
 }
 
-main {
-    margin-block-start: 12em;
-    margin-block-end: 1em;
-    margin-inline-start: 2.5%;
-    margin-inline-end: 30%;
+.info {
+    width: 50%;
+}
+
+.line {
+    width: 52%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid rgb(255, 255, 255);
+    opacity: 0.7;
+    margin: 1em 0;
+    padding: 0;
+}
+
+footer > div > div > a {
+    margin-left: 10px;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.text-body-secondary {
+    margin-right: 10px;
 }
 
 @media (min-width: 765px) {
@@ -62,53 +114,4 @@ main {
     .info {
         font-size: 12px;
     }
-}
-
-.container_3 {
-    font-family: 'Source Sans 3', sans-serif;
-    margin-block-start: 18em;
-    margin-block-end: -2em;
-    margin-inline-start: 100px;
-    margin-inline-end: 100px;
-    color: whitesmoke;
-    text-transform: initial;
-}
-
-.info {
-    width: 50%;
-}
-
-.line {
-    width: 52%;
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 5px solid rgb(255, 255, 255);
-    opacity: 0.7;
-    margin: 1em 0;
-    padding: 0;
-}
-
-.align-items-center {
-    align-items: center!important;
-}
-
-.justify-content-between {
-    justify-content: space-between!important;
-}
-
-.justify-content-end {
-    justify-content: end!important;
-}
-
-.flex-wrap {
-    flex-wrap: wrap!important;
-}
-
-.d-flex {
-    display: flex!important;
-}
-
-.text-body-secondary {
-    margin-right: 10px;
 }
