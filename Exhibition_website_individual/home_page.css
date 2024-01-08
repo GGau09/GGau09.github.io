@@ -1,20 +1,41 @@
 .bg {
     background-color: black;
-    background-image: url(Texture_2_horizontal_0.4_full.png);
+    background-image: url(Texture_2_horizontal_0.4.png);
+    background-size: cover;
     background-attachment: fixed;
 }
 
 .container {
     font-family: 'Source Sans 3', sans-serif;
-    margin-block-start: 16em;
+    margin-block-start: 12em;
     margin-block-end: 1em;
     margin-inline-start: 100px;
     margin-inline-end: 0;
     color: whitesmoke;
 }
 
-.title {
-    font-size: 100px;
+@media (min-width: 1920px) {
+    .title {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 1919.98px) {
+    .title {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .info {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1919.98px) {
+    .info {
+        font-size: 10px;
+    }
 }
 
 .container_3 {
@@ -42,18 +63,10 @@
     padding: 0;
 }
 
-span {
-    margin-left: 3px;
-}
-
-.py-3 {
-    padding-top: 1rem!important;
-    padding-bottom: 1rem!important;
-}
-.my-4 {
-    margin-top: 1.5rem!important;
-    margin-bottom: 1.5rem!important;
-}
+/* button.navbar-toggler {
+    width: 30px;
+    height: 30px;
+} */
 
 .align-items-center {
     align-items: center!important;
