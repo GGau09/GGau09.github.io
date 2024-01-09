@@ -1,0 +1,67 @@
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    color: whitesmoke;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    background-color: black;
+    background-image: url(bg_circle.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    padding: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+footer {
+    margin-block-start: 17.18%;
+    margin-block-end: -15em;
+    margin-inline-start: 1%;
+    margin-inline-end: 3%;
+    color: whitesmoke;
+    text-transform: initial;
+}
+.navbar-nav {
+    padding-left: 50%;
+}
+
+.navbar-brand {
+    margin-top: -0.5%;
+    font-size: 50px;
+}
+
+.info {
+    margin-block-start: 15%;
+    margin-inline-start: 30%;
+    margin-inline-end: 35%;
+    text-align: center;
+    position: fixed;
+}
+
+.line {
+    width: 52%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid rgb(255, 255, 255);
+    opacity: 0.7;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.text-body-secondary {
+    margin-right: 10px;
+}
