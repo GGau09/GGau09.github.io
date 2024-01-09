@@ -1,26 +1,4 @@
-header {
-    padding: auto;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-main {
-    margin-block-start: 12em;
-    margin-block-end: 1em;
-    margin-inline-start: 2.5%;
-    margin-inline-end: 30%;
-}
-
-footer {
-    margin-block-start: 18em;
-    margin-block-end: -2em;
-    margin-inline-start: 2.5%;
-    margin-inline-end: 2.5%;
-    color: whitesmoke;
-    text-transform: initial;
-}
-
-.bg {
+body {
     font-family: 'Source Sans 3', sans-serif;
     color: whitesmoke;
     padding-left: 3%;
@@ -31,6 +9,27 @@ footer {
     background-image: url(Texture_2_horizontal_0.4.png);
     background-size: cover;
     background-attachment: fixed;
+}
+
+header {
+    padding: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main {
+    margin-block-start: 14%;
+    margin-inline-start: 1%;
+    margin-inline-end: 30%;
+}
+
+footer {
+    margin-block-start: 17.18%;
+    margin-block-end: -15em;
+    margin-inline-start: 1%;
+    margin-inline-end: 3%;
+    color: whitesmoke;
+    text-transform: initial;
 }
 
 .navbar-brand {
@@ -80,7 +79,7 @@ footer > div > div > a {
     margin-right: 10px;
 }
 
-@media (min-width: 765px) {
+/* @media (min-width: 765px) {
     .navbar-toggler {
         margin-right: 5px;
     }
@@ -94,13 +93,13 @@ footer > div > div > a {
 
 @media (min-width: 1920px) {
     .title {
-        font-size: 100px;
+        font-size: 70px;
     }
 }
 
 @media (max-width: 1919.98px) {
     .title {
-        font-size: 50px;
+        font-size: 30px;
     }
 }
 
@@ -114,4 +113,4 @@ footer > div > div > a {
     .info {
         font-size: 12px;
     }
-}
+} */
