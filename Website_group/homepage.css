@@ -1,0 +1,63 @@
+body {
+    font-family: 'agrandir', bold, sans-serif;
+    color: whitesmoke;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    background-color: black;
+    background-image: url(bg_circle.jpg);
+    background-size: cover;
+}
+
+header {
+    padding: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar-brand {
+    margin-top: -0.5%;
+    font-size: 35px;
+}
+
+.info {
+    margin-block-start: 14%;
+    margin-inline-start: 30%;
+    margin-inline-end: 35%;
+    text-align: center;
+    position: fixed;
+}
+
+.mr-5 {
+    padding-right: 20px;
+}
+
+.text-body-secondary {
+    margin-right: 15px;
+}
+
+@media (min-width: 826px) {
+    .navbar-toggler {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 420px) {
+    .navbar-toggler {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1920px) {
+    .info {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1919.98px) {
+    .info {
+        font-size: 12px;
+    }
+}
