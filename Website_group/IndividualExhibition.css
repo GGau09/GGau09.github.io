@@ -41,6 +41,25 @@ p {
     font-size: 35px;
 }
 
+.carousel-indicators {
+    padding-bottom: 5%;
+}
+
+.carousel-inner {
+    margin-top: 33%;
+    padding-bottom: 7%;
+}
+
+.carousel-control-prev {
+    margin-bottom: 7%;
+    opacity: 0;
+}
+
+.carousel-control-next {
+    margin-bottom: 7%;
+    opacity: 0;
+}
+
 .mr-5 {
     padding-right: 20px;
 }
