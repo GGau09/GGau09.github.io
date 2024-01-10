@@ -1,0 +1,63 @@
+body {
+    font-family: "Brown Sugar", serif;
+    color: whitesmoke;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    background-color: black;
+    background-image: url(bg_circle.jpg);
+    background-attachment: fixed;
+}
+
+header {
+    padding: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    margin-top: 22%;
+    margin-left: 1.5%;
+    font-size: 65px;
+}
+
+p {
+    font-family: "Kollektif", sans-serif;
+    width: 30%;
+    margin-top: -24%;
+    margin-left: 68%;
+}
+
+.img {
+    width: 23%;
+    height: 23%;
+    margin-left: 38%;
+    margin-top: -19%;
+}
+
+.navbar-brand {
+    margin-top: -0.5%;
+    font-size: 35px;
+}
+
+.mr-5 {
+    padding-right: 20px;
+}
+
+.text-body-secondary {
+    margin-right: 15px;
+}
+
+@media (min-width: 826px) {
+    .navbar-toggler {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 420px) {
+    .navbar-toggler {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
