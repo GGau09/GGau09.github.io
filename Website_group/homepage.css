@@ -7,7 +7,7 @@ body {
     padding-bottom: 1%;
     background-color: black;
     background-image: url(bg_circle.jpg);
-    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
