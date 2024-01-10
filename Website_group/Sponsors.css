@@ -27,12 +27,16 @@ h1 {
     font-size: 35px;
 }
 
-.img {
-    float: left;
-    width: 30%;
-    height: auto;
-    margin: 1.66%;
-    padding-bottom: 2%;
+.sponsors {
+    margin-top: 30%;
+    margin-left: 32%;
+    padding-bottom: 17%;
+    size: 10%;
+}
+
+.img2 {
+    margin-left: 5%;
+    margin-top: -10%;
 }
 
 .mr-5 {
