@@ -52,12 +52,14 @@ p {
 
 .carousel-control-prev {
     margin-bottom: 7%;
-    opacity: 0;
+    background: black;
+    border: none;
 }
 
 .carousel-control-next {
     margin-bottom: 7%;
-    opacity: 0;
+    background: black;
+    border: none;
 }
 
 .mr-5 {
