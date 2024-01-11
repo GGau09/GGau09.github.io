@@ -1,16 +1,15 @@
-body {
-    font-family: "Brown Sugar", serif;
-    color: whitesmoke;
+.bg_img {
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 0.5%;
     padding-bottom: 1%;
     background-color: black;
     background-image: url(bg_circle.jpg);
-    background-attachment: fixed;
 }
 
 header {
+    font-family: "Brown Sugar", serif;
+    color: whitesmoke;
     padding: auto;
     margin-left: 20px;
     margin-right: 20px;
@@ -23,6 +22,7 @@ header {
 
 .info {
     font-family: "Kollektif", sans-serif;
+    color: whitesmoke;
     margin-block-start: 14%;
     margin-inline-start: 30%;
     margin-inline-end: 35%;
