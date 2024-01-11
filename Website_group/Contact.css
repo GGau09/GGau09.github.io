@@ -1,6 +1,4 @@
-body {
-    font-family: "Brown Sugar", serif;
-    color: whitesmoke;
+.bg_img {
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 0.5%;
@@ -11,18 +9,24 @@ body {
 }
 
 header {
+    font-family: "Brown Sugar", serif;
+    color: whitesmoke;
     padding: auto;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 h1 {
+    font-family: "Brown Sugar", serif;
+    color: whitesmoke;
     text-align: center;
     margin-top: 20%;
     margin-bottom: 25%;
 }
 
 form {
+    font-family: "Kollektif", sans-serif;
+    color: whitesmoke;
     margin-left: 35%;
     width: 30%;
     margin-top: -28%;
@@ -31,12 +35,9 @@ form {
 
 .body-text {
     font-family: "Kollektif", sans-serif;
+    color: whitesmoke;
     width: 25%;
     padding-bottom: 15%;
-}
-
-.form-control {
-    font-family: "Kollektif", sans-serif;
 }
 
 .comment {
