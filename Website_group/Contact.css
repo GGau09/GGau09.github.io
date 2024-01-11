@@ -26,17 +26,19 @@ h1 {
 form {
     font-family: "Kollektif", sans-serif;
     color: whitesmoke;
-    margin-left: 35%;
-    width: 30%;
-    margin-top: -28%;
-    padding-bottom: 2%;
+    width: 25%;
+    margin-top: -10%;
+    padding-bottom: 7%;
+    margin-left: 37%;
 }
 
 .body-text {
     font-family: "Kollektif", sans-serif;
     color: whitesmoke;
     width: 25%;
-    padding-bottom: 15%;
+    margin-top: -5%;
+    padding-bottom: 13%;
+    margin-left: 37%;
 }
 
 .comment {
