@@ -1,6 +1,4 @@
-body {
-    font-family: "Brown Sugar", serif;
-    color: whitesmoke;
+.bg_img {
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 0.5%;
@@ -11,12 +9,16 @@ body {
 }
 
 header {
+    font-family: "Brown Sugar", serif;
+    color: whitesmoke;
     padding: auto;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 h1 {
+    font-family: "Brown Sugar", serif;
+    color: whitesmoke;
     margin-top: 22%;
     margin-left: 1.5%;
     font-size: 65px;
@@ -24,6 +26,7 @@ h1 {
 
 p {
     font-family: "Kollektif", sans-serif;
+    color: whitesmoke;
     width: 30%;
     margin-top: -24%;
     margin-left: 68%;
