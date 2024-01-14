@@ -26,6 +26,16 @@ header {
     margin-top: -15.5%;
 }
 
+.text {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    margin-left: 28.5%;
+    margin-top: 20%;
+    margin-bottom: 7%;
+    width: 43%;
+    text-align: justify;
+}
+
 .navbar-brand {
     margin-top: -0.5%;
 }
