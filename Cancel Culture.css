@@ -34,6 +34,16 @@ header {
     margin-top: -1%;
 }
 
+.text {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    margin-left: 28.5%;
+    margin-top: 20%;
+    margin-bottom: 7%;
+    width: 43%;
+    text-align: justify;
+}
+
 .mr-5 {
     padding-right: 20px;
 }
