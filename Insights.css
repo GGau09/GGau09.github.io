@@ -23,7 +23,14 @@ header {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: whitesmoke;
     text-align: center;
-    margin-top: -15.5%;
+    margin-top: 13%;
+}
+
+.row {
+    margin-top: 30%;
+    margin-left: 20%;
+    margin-bottom: 15%;
+    text-align: justify;
 }
 
 .navbar-brand {
