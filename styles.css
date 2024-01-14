@@ -1,0 +1,110 @@
+.bg_img {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    background-color: black;
+    /* background-image: url(bg.jpg);
+    background-attachment: fixed; */
+}
+
+header {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.row {
+    margin-bottom: 5%;
+}
+
+.navbar-brand {
+    margin-top: -0.5%;
+}
+
+.navbar-nav {
+    margin-top: -1%;
+}
+
+.heading {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 13%;
+}
+
+.subtitle {
+    color: red;
+}
+
+.category {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+.topics {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30%;
+    margin-bottom: 40%;
+}
+
+.container {
+    margin-top: -37%;
+    margin-bottom: 5%;
+    margin-left: 13%;
+}
+
+.col {
+    margin-bottom: -3%;
+}
+
+.fadein img{
+    opacity:1;
+    transition: 1s ease;
+}
+
+.fadein img:hover{
+    opacity:0.7;
+    transition: 1s ease;
+}
+
+h4 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+.mr-5 {
+    padding-right: 20px;
+}
+
+.text-body-secondary {
+    margin-right: 15px;
+}
+
+@media (min-width: 826px) {
+    .navbar-toggler {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 420px) {
+    .navbar-toggler {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1920px) {
+    .info {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1919.98px) {
+    .info {
+        font-size: 12px;
+    }
+}
